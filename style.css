@@ -99,6 +99,7 @@ body {
     margin-top: 2vh;
     overflow: auto;
     border-radius: 5px;
+    overflow-wrap: anywhere;
 }
 
 .notebtns {
@@ -138,4 +139,5 @@ body {
 
 .item-content {
     width: 100%;border: none; padding-left: 10px;
+
 }
