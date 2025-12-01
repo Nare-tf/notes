@@ -17,7 +17,7 @@
             <button class="btn" id="delete">Delete</button>
         </div>
     </div>
-    <div class="modal", style="display: none;" id="note">
+    <div class="modal" style="display: none;" id="note">
         <div class="addnote">
             <div class="name" id="name" contenteditable>Enter name of the note...</div>
             <div contenteditable class="content" id="content">Enter your note here...</div>
@@ -29,10 +29,22 @@
             </div>
         </div>
     </div>
+    <div class="modal" style="display: none;" id="view">
+        <div class="addnote">
+            <div class="view-name" id="view-name" style="border: none;">Enter name of the note...</div>
+            <div class="view-content" id="view-content" style="border: none;">Enter your note here...</div>
+            <div>
+                <div class="notebtns">
+                    <button class="btn notebtn" id="view-close">Close</button>
+                    <button class="btn notebtn" style="color: greenyellow;" id="edit">Edit</button>
+                    <button class="btn notebtn" style="color: red;" id="delete-note">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="notes" id="notes">
         
     </div>
     <script src="script.js"></script>
 </body>
-
 </html>

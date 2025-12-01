@@ -70,6 +70,7 @@ body {
     padding: 3vh;
 }
 
+
 .name {
     border: solid;
     height: 15px;
@@ -86,6 +87,15 @@ body {
     padding: 1vh;
     font-weight: 600;
     font-style: oblique;
+    margin-top: 2vh;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.view-content {
+    height: 75%;
+    padding: 1vh;
+    font-weight: 600;
     margin-top: 2vh;
     overflow: auto;
     border-radius: 5px;
