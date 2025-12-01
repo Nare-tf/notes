@@ -1,0 +1,131 @@
+body {
+    background-color: gainsboro;
+}
+
+.header {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.btns {
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+.btn {
+    height: 40px;
+    width: 80px;
+    font-size: larger;
+    font-weight: 600;
+    background-color: gray;
+    border: none;
+}
+
+.btncont {
+    border: solid 3px whitesmoke;
+    border-radius: 9px;
+    overflow: auto;
+    display: flex;
+}
+
+.btn:hover {
+    background-color: beige;
+    box-shadow: inset 4 4 5 5;
+}
+
+.btn:active {
+    background-color: gray;
+    transform: scale3d(1, 1, 1);
+    filter: drop-shadow(12);
+}
+
+.modal {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal.active {
+    display: flex;
+}
+
+.addnote {
+    border: solid;
+    height: 75vh;
+    width: 75vw;
+    background-color: whitesmoke;
+    border-radius: 9px;
+    overflow: auto;
+    padding: 3vh;
+}
+
+.name {
+    border: solid;
+    height: 15px;
+    padding: 2vh;
+    font-weight: 600;
+    font-style: oblique;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.content {
+    border: solid;
+    height: 75%;
+    padding: 1vh;
+    font-weight: 600;
+    font-style: oblique;
+    margin-top: 2vh;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.notebtns {
+    display: inline-flex;
+    border: solid black 3px;
+    justify-content: center;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.notebtn {
+    height: 10%;
+}
+
+.selected {
+    background: linear-gradient(135deg, gray 0%, #6a716a 100%);
+    box-shadow: red;
+}
+
+.notes {
+    padding: 10px;
+}
+
+.note-item {
+    display: inline-flex;
+    width: 99%;
+    height: 10vh;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-color: wheat;
+    box-shadow: -1.5px -1.5px 1.5px 1.5px gray;
+    overflow: hidden;
+}
+.note-item:hover {
+    box-shadow: -3px -3px 3px 3px gray;
+}
+
+.item-content {
+    width: 100%;border: none; padding-left: 10px;
+}

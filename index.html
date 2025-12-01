@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn It All...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Notes</h1>
+        <hr>
+    </div>
+    <div class="btns">
+        <div class="btncont">
+            <button class="btn" id="add">Add</button>
+            <button class="btn" id="delete">Delete</button>
+        </div>
+    </div>
+    <div class="modal", style="display: none;" id="note">
+        <div class="addnote">
+            <div class="name" id="name" contenteditable>Enter name of the note...</div>
+            <div contenteditable class="content" id="content">Enter your note here...</div>
+            <div>
+                <div class="notebtns">
+                    <button class="btn notebtn" id="close">Close</button>
+                    <button class="btn notebtn" style="color: blue;" id="save">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="notes" id="notes">
+        <div class="note-item">
+            <div class="item-content">
+                <span style="font-weight: 900; font-size: 1.1em;">Hello Bhaiso...</span>
+                <br>
+                <text>Lorem ipsum dnderit distinctio, quidem repellat assumenda corrupti facilis sed possimus hic quod deleniti quasi, eligendi laborum quam cupiditate expedita esse temporibus.</text>
+                <pre style="justify-self: end; position: static;">12/10/1212</pre>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
